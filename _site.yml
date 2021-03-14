@@ -1,0 +1,12 @@
+name: "Data Science Blog"
+title: "Data Science and Machine Learning"
+description: |
+  Data Science and Machine Learning
+output_dir: "_site"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article
